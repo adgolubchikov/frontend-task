@@ -1,0 +1,49 @@
+@media all and (max-width: 700px) {
+    #left {
+        width: 100%;
+        height: 100vh;
+    }
+    #top {
+        position: absolute;
+        top: 0px;
+    }
+    #bottom {
+        position: absolute;
+        bottom: 0px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    #right {
+        width: 100%;
+        height: 100vh;
+        display: table-cell vertical-align: middle;
+    }
+}
+
+@media all and (min-width: 701px) {
+    #left {
+        display: inline-block;
+        width: 33%;
+    }
+    #top {
+        position: absolute;
+        top: 0px;
+    }
+    #bottom {
+        bottom: 0px;
+    }
+    img {
+        display: inline-block;
+        width: 33%;
+        height: auto;
+    }
+    #right {
+        display: inline-block;
+        width: 33%;
+        position: absolute;
+        top: 50%;
+        margin-top: -3.75em;
+    }
+}
